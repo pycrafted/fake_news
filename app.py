@@ -1,3 +1,10 @@
+import sys
+import platform
+
+# Vérification de la version Python
+python_version = platform.python_version()
+st.write(f"Python version: {python_version}")
+
 import streamlit as st
 
 # Configuration de Streamlit (doit être la première commande Streamlit)
